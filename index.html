@@ -7,6 +7,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
+  <style>
+    @media (max-width: 480px) {
+
+      /* Медиазапрос для мобильных устройств с шириной экрана до 480px */
+      .time-count {
+        width: 100%;
+        height: auto;
+        padding: 30px;
+      }
+
+      .time-count__title {
+        font-size: 28px;
+        line-height: 34px;
+      }
+
+      .time-count__content {
+        flex-wrap: wrap;
+      }
+
+      .time-count__item {
+        flex-basis: 50%;
+        margin-bottom: 15px;
+      }
+
+      .time-count__separator {
+        font-size: 36px;
+        line-height: 50px;
+        margin: 0 10px;
+      }
+
+      .time-count__val {
+        font-size: 50px;
+        line-height: 60px;
+      }
+    }
+  </style>
   <script defer src="script.js"></script>
   <title>Document</title>
 </head>

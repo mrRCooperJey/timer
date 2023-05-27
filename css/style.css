@@ -85,3 +85,38 @@ body {
   line-height: 20px;
   color: var(--color-dark);
 }
+
+<style>
+@media (max-width: 480px) { /* Медиазапрос для мобильных устройств с шириной экрана до 480px */
+  .time-count {
+    width: 100%;
+    height: auto;
+    padding: 30px;
+  }
+
+  .time-count__title {
+    font-size: 28px;
+    line-height: 34px;
+  }
+
+  .time-count__content {
+    flex-wrap: wrap;
+  }
+
+  .time-count__item {
+    flex-basis: 50%;
+    margin-bottom: 15px;
+  }
+
+  .time-count__separator {
+    font-size: 36px;
+    line-height: 50px;
+    margin: 0 10px;
+  }
+
+  .time-count__val {
+    font-size: 50px;
+    line-height: 60px;
+  }
+}
+</style>
